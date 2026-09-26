@@ -1,0 +1,232 @@
+body{
+    background-image: url('the-bank-of-old-monroe-background-portrait-9691e173.png');
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    max-width: 62%;
+    background-color: transparent ;
+    height: 100dvb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.main{
+    width: 100%;
+    max-width: 64%;
+    background-color: white;
+    height: 520px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    
+    
+    
+
+}
+.img{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    height: 80px;
+}
+.back-icon {
+    margin-left: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.lock{
+    background-color: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'helvetica';
+    color: rgba(0, 0, 0, 0.726);
+}
+.head2{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'helvetica';
+    color: rgba(0, 0, 0, 0.598);
+}
+.formup{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+main input{
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(245, 222, 179, 0);
+    outline: 1px solid;
+    width: 100%;
+    max-width: 350px;
+    height: 27px;
+    padding: 12px 70px 12px 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    
+    
+}
+main input:hover{
+    outline: solid 2.5px;
+}
+
+.password-container{
+    position: relative;
+    width: 100%;
+}
+.show, .close{
+    position: absolute;
+    left: 82%;
+    top: 28%;
+    cursor: pointer;
+}
+.alert{
+    background-color: black;
+    z-index: 9999;
+    outline: none;
+    padding: 10px 12px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 30%;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 7px;
+    left: 35%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.message{
+    position: relative;
+    left: 35%;
+    color: red;
+}
+.forgot{
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 82%;
+    cursor: pointer;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.passkey{
+    position: relative;
+    width: 100%;
+}
+.sign{
+    position: absolute;
+    top: 10px;
+    left: 28%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
+    
+}
+.f-icon{
+    position: absolute;
+    top: 35px;
+    left: 20%;
+}
+
+.btn{
+    position: absolute;
+    top: 30px;
+    left: 75.8%;
+    padding: 11px 19px;
+    color: white;
+    background-color: rgb(38, 35, 35);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.687);
+}
+
+
+@media(max-width: 600px) {
+
+   
+
+    .main{
+        max-width: 90%;
+        
+        overflow-x: hidden;
+    }
+    .container{
+        max-width: 100%;
+        
+    }
+    main input{
+        max-width: 70%;
+    }
+    
+.forgot{
+    margin-left: 80%;
+}
+.passkey{
+    position: relative;
+    width: 100%;
+}
+.sign{
+    position: relative;
+    
+    top: 20px;
+    left: 17%;
+}
+
+.f-icon{
+    position: absolute;
+    top: 90%;
+    left: 8%;
+}
+.btn{
+    position: absolute;
+    top: 70%;
+    left: 72%;
+}
+
+}
