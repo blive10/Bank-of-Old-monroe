@@ -275,6 +275,11 @@ db.run(`
 // START SERVER
 // ============================
 
+
+app.get("/", (req, res) => {
+  res.send("Bank of Old Monroe API is running!");
+});
+
 app.listen(PORT, () => {
 
     console.log(`Server running at http://localhost:${PORT}`);
